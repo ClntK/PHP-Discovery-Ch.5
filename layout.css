@@ -1,0 +1,144 @@
+/* CHINESE ZODIAC STYLESHEET */
+/* LAYOUT STYLES */
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 96%;
+    margin: 0 2%;
+}
+
+header, footer {
+    position: relative; 
+    width: 100%;
+}
+
+nav#buttonNav {
+    position: relative;
+    width: 100%;
+}
+
+a {
+    color: d4b9b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #4c4c4c;
+}
+
+a:visited {
+    color: silver;
+    text-decoration: none;
+}
+
+/* Header */
+
+header img {
+    width: 100%;
+    margin: 0;
+}
+
+/* Button Nav */
+
+nav#buttonNav table {
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+nav#buttonNav table tr {
+    position: relative;
+}
+
+nav#buttonNav table td img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-top: 6px;
+    border-bottom: 6px;
+}
+
+/* Text Nav */
+
+nav#textLinks {
+    position: relative;
+    width: 10%;
+    padding: 2%;
+    float: left;
+    text-align: left;
+}
+
+/* Home/Content */
+
+table#Years {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table#Years th {
+    text-align: center;
+    border: 2px solid #312e2a;
+    color: goldenrod;
+    background-color: #312e2a;
+}
+
+table#Years td {
+    text-align: center;
+    border: 3px solid #312e2a;
+}
+
+table#Years td img {
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+
+/* Section */
+
+section#dyncon {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+section#dyncon a#DCexample img {
+    margin: 2%;
+    border: 4px ridge goldenrod;
+    border-radius: 20px;
+    filter: drop-shadow(-10px 10px 10px black);
+}
+
+section#section {
+    position: relative;
+    width: 82%;
+    margin: 0% 0% 0% 14%;
+    padding: 2%;
+    background-color: silver;
+}
+
+section#textNav {
+    background: url('images/sectionBG.png');
+    background-repeat: repeat-y;
+}
+
+
+/* Footer */
+
+footer {
+    display: table;
+    clear: both;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #d4b9b9;
+    background-color: #312e2a;
+}
